@@ -1,6 +1,6 @@
 import React from "react";
 import { FcGoogle } from "react-icons/fc";
-import { GoogleAuthProvider } from "firebase/auth/web-extension";
+import { GoogleAuthProvider } from "firebase/auth";
 import { getAuth, signInWithPopup } from "firebase/auth";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router";
